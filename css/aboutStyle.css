@@ -1,0 +1,136 @@
+.titleText {
+    font-size: 4vw;
+    color: cadetblue;
+    font-family: "Marker Felt";
+/*    font-family: "Bradley Hand";*/
+/*    font-family: "Monaco";*/
+/*    font-family: "Luminari";*/
+}
+
+.aboutDescription {
+    font-size: 14px;
+}
+
+.eduDescription {
+    font-family: "Courier New";
+}
+
+/* date */
+.edu p:first-child {
+    color: gray;
+    margin-bottom: 0px;
+}
+
+/* course */
+.edu p:nth-child(2) {
+    font-size: 2vw;
+    margin-bottom: 0px;
+    font-family: "Monaco";
+    letter-spacing: 2px;
+    font-variant: small-caps;
+}
+
+/* school */
+.edu p:nth-child(3) {
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+/* school */
+.edu p:nth-child(4) {
+    font-size: 15px;
+}
+
+/* school (in progress) */
+.edu p:nth-child(4) span {
+    color: gray;
+    font-style: italic;
+}
+
+.skillsDescription {
+    font-size: 15px;
+    font-family: "Courier New";
+}
+
+.skillTitle {
+    font-size: 2vw;
+    font-family: "Monaco";
+    letter-spacing: 2px;
+    font-variant: small-caps;
+    margin-bottom: 10px
+}
+
+.skillList span {
+    font-size: 15px;
+    display: inline-block;
+    border: 1px solid cadetblue;
+    border-radius: 5px;
+    padding: 3px 12px;
+    margin-bottom: 8px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .titleText {
+        font-size: 8vw;
+    }
+    .aboutDescription, .eduDescription {
+        font-size: 13px;
+    }
+    .edu p:nth-child(2) {
+        font-size: 4.5vw;
+    }
+    .skillTitle {
+        font-size: 4.3vw;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and down) */
+@media only screen and (max-width: 768px) {
+    .titleText {
+        font-size: 5vw;
+    }
+    .edu p:nth-child(2) {
+        font-size: 3vw;
+    }
+    .skillTitle {
+        font-size: 2.8vw;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .titleText {
+        font-size: 3vw;
+    }
+    .edu p:nth-child(2) {
+        font-size: 1.5vw;
+    }
+    .skillTitle {
+        font-size: 1.3vw;
+    }
+}
+
+
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}

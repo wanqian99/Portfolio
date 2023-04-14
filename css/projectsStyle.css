@@ -1,0 +1,288 @@
+.screen1 {
+    width: auto;
+    height: 35vw;
+    -webkit-box-reflect: below 0px 
+        -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(75%, transparent) , to(rgba(0, 0, 0, 0.1)));
+}
+
+.screen2 {
+    -webkit-box-reflect: below 0px 
+        -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(75%, transparent) , to(rgba(0, 0, 0, 0.1)));
+}
+
+.modalProjectTitle {
+    color: #96DED1;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-variant: small-caps;
+}
+
+.modalScreenText {
+/*    color: #96DED1;*/
+    font-size: 15px;
+}
+
+.extraScreen {
+    width: auto;
+    height: 40vw;
+}
+
+.carousel-control-prev-icon {
+    position: absolute;
+    bottom: 0px;
+    left: 0px; 
+}
+
+.carousel-control-next-icon {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.carousel .carousel-indicators{
+    position: relative;
+    margin-bottom: 0;
+}
+.carousel .carousel-indicators button{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: rgba(95, 158, 160, 0.5);
+}
+.carousel-indicators button.active {
+    background-color: cadetblue;
+}
+
+.projectTitle {
+    color: #96DED1;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-variant: small-caps;
+}
+
+.projectDescription {
+    font-size: 14px;
+}
+
+.techList span {
+    font-size: 15px;
+    display: inline-block;
+    border: 1px solid cadetblue;
+    border-radius: 5px;
+    padding: 3px 12px;
+    margin-bottom: 8px;
+}
+
+
+/* REFERENCE FROM
+    https://www.cssscript.com/3d-card-hover-effect/
+*/
+#otherProjContainer {
+
+}
+#otherProjContainer .box {
+/*  position: relative;*/
+  width: 300px;
+  height: 300px;
+/*  background: #000;*/
+  transition: 0.5s;
+  transform-style: preserve-3d;
+  overflow: hidden;
+}
+
+/* select all boxes and rotateY */
+#otherProjContainer:hover .box {
+  transform: rotateY(25deg);
+}
+
+/* select next sibling boxes and -rotateY */
+#otherProjContainer .box:hover ~ .box {
+  transform: rotateY(-25deg);
+}
+
+/* select hovered box and scale it */
+#otherProjContainer .box:hover {
+  transform: rotateY(0deg) scale(1.25);
+/*  z-index: 1;*/
+  box-shadow: 0 25px 40px rgba(0,0,0,0.5);
+}
+#otherProjContainer .box .imgBx {
+
+}
+
+/* set overlay background opacity to 0 */
+#otherProjContainer .box .imgBx:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #5F9EA0, #000000);
+    z-index: 1;
+    opacity: 0;
+    transition: 0.5s;
+    mix-blend-mode: multiply;
+}
+
+/* set overlay opacity to 1 - box hovered */
+#otherProjContainer .box:hover .imgBx:before {
+    opacity: 1;
+}
+
+/* image to retain proportion but cropped to square */
+#otherProjContainer .box .imgBx img {
+    position: absolute;
+    border: 1px solid cadetblue;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* project description container ontop of overlay */
+#otherProjContainer .box .content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    padding: 20px;
+    align-items: flex-end;
+    box-sizing: border-box;
+}
+
+/* translate to hide project text */
+#otherProjContainer .box .content .otherProjBox {
+    margin-bottom: 5px;
+    transform: translateY(300px);
+    transition: 0.5s;
+}
+
+/* translate to show project text on hover */
+#otherProjContainer .box:hover .content .otherProjBox {
+    transform: translateY(0px);
+}
+
+/* project title style */
+#otherProjContainer .box .content .otherProjTitle {
+    color: #96DED1;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-variant: small-caps;
+}
+
+/* project description style */
+#otherProjContainer .box .content .otherProjDes {
+    color: white;
+    transition: 0.5s;
+    font-size: 12px;
+}
+
+#otherProjContainer .box .content .otherProjTechList span {
+    font-size: 12px;
+    display: inline-block;
+    border: 1px solid cadetblue;
+    border-radius: 5px;
+    padding: 3px 12px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+/* SHOW MORE PROJECTS BUTTON */
+.showBtn {
+    background-color: cadetblue;
+    text-align: center;
+    font-size: 15px;
+    transition: 0.5s;
+}
+
+.showBtn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.showMoreBtn span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -15px;
+    transition: 0.5s;
+    transform:rotate(90deg);
+}
+
+.showLessBtn span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -15px;
+    transition: 0.5s;
+    transform:rotate(-90deg);
+}
+
+.showBtn:hover span {
+    padding-right: 15px;
+}
+
+.showBtn:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .screen1 {
+        height: 80vw;
+    }
+    .extraScreen {
+        width: auto;
+        height: 80vw;
+    }
+}
+
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}

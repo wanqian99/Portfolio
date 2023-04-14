@@ -1,0 +1,35 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Monaco", "Courier New", monospace !important;
+    padding-top: 60px;
+}
+
+/* ----- Nav  */
+nav {
+    height: 60px;
+}
+
+nav .navName {
+    font-size: 1.25em;
+    font-family: "Marker Felt";
+/*    font-style: italic;*/
+    letter-spacing: 3px;
+}
+
+nav #navbarMenu .navbar-nav .active {
+    font-weight: bold;
+    border-bottom: 3px solid cadetblue;
+}
+
+
+
+/*
+#animatedText:hover {
+    color: pink;
+    animation: bounceIn 5s infinite;
+    animation: --animate__bounceIn;
+}
+*/

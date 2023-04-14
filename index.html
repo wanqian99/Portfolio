@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/mainStyle.css">
+    <link rel="stylesheet" href="css/homeStyle.css">
+    <link rel="stylesheet" href="css/aboutStyle.css">
+    <link rel="stylesheet" href="css/projectsStyle.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <title>Gao WanQian's Portfolio</title>
+</head>
+<body class="bg-dark" style="overflow-x: hidden;">
+    <header>
+        <nav id="navbar" class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark d-flex mx-4">
+            <a class="navName navbar-brand" href="#">
+                &lt;WanQian/&gt;
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-item nav-link px-0 mx-2 active" href="#home">
+                        Home
+                    </a>
+                    <a class="nav-item nav-link px-0 mx-2" href="#about">
+                        About
+                    </a>
+                    <a class="nav-item nav-link px-0 mx-2" href="#projects">
+                        Projects
+                    </a>
+                </div>
+            </div>
+        </nav>  
+    </header>
+
+<!--    <div data-bs-spy="scroll" data-bs-target="#navbar" data-bs-root-margin="0px 0px -10%" data-bs-smooth-scroll="true" tabindex="0" class="mx-4" style="overflow-y: hidden;">-->
+    <div data-bs-spy="scroll" data-bs-target="#navbar" data-bs-root-margin="0px 0px -10%" data-bs-smooth-scroll="true" tabindex="0" class="mx-4">
+        <!-- HOME SECTION -->
+        <section id="home" class="d-flex align-items-start flex-column py-4 my-4 bg-dark text-light homeSection">
+            <!-- INTRO -->
+            <div class="flex-column d-sm-flex flex-sm-row container-fluid justify-content-between align-items-start px-4">
+                <div class="d-flex flex-column col-lg-4 col-md-6 col-sm-7">
+                    <!-- Hello -->
+                    <div class="flex-row intro introHello">
+                        <span class="my-auto">H</span>
+                        <span class="my-auto">E</span>
+                        <span class="my-auto">L</span>
+                        <span class="my-auto">L</span>
+                        <span class="my-auto">O</span>
+                        <span class="my-auto">!</span>
+                    </div>
+                    <!-- I'm WanQian -->
+                    <div class="flex-row intro introName">
+                        <span class="my-auto">I</span>
+                        <span class="my-auto">'</span>
+                        <span class="my-auto me-4">m</span>
+                        <span class="my-auto">W</span>
+                        <span class="my-auto">a</span>
+                        <span class="my-auto">n</span>
+                        <span class="my-auto">Q</span>
+                        <span class="my-auto">i</span>
+                        <span class="my-auto">a</span>
+                        <span class="my-auto">n</span>
+                    </div>
+                    <!-- A Front-End Developer... -->
+                    <div class="d-inline-flex flex-row introDev">
+                        <p class="typewriter row ms-1">
+                            A Front-End Developer...
+                        </p>
+                    </div>
+                </div>          
+                <!-- Polygon Grid -->
+                <div class="d-none d-sm-block d-flex flex-column overlayContainer p-4 ms-auto col-lg-8 col-md-6 col-sm-5" style="transform: rotate(180deg); z-index: 0;">
+                </div>
+            </div>
+            <!-- CONTACT AND LINKS -->
+            <div class="d-flex flex-column d-sm-flex flex-sm-row container-fluid justify-content-between mt-auto px-4">
+                <div class="d-flex flex-column">
+                    <!-- Email -->
+                    <a href="mailto:gaowanqian.99@gmail.com" aria-label="Email" class="text-center  animateEmail">gaowanqian.99@gmail.com</a>
+                    <!-- GitHub and LinkedIn Icons, Resume Button -->
+                    <div class="d-flex flex-row my-2 justify-content-center justify-content-sm-start">
+                        <!-- GitHub Icon -->
+                        <a href="https://github.com/wanqian99" target="_blank" aria-label="Github" class="ps-0 pe-2 animateIcon">
+                            <svg fill="#000000" width="800px" height="800px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <g data-name="Layer 2">
+                                    <rect width="24" height="24" opacity="0"/>
+                                    <path d="M16.24 22a1 1 0 0 1-1-1v-2.6a2.15 2.15 0 0 0-.54-1.66 1 1 0 0 1 .61-1.67C17.75 14.78 20 14 20 9.77a4 4 0 0 0-.67-2.22 2.75 2.75 0 0 1-.41-2.06 3.71 3.71 0 0 0 0-1.41 7.65 7.65 0 0 0-2.09 1.09 1 1 0 0 1-.84.15 10.15 10.15 0 0 0-5.52 0 1 1 0 0 1-.84-.15 7.4 7.4 0 0 0-2.11-1.09 3.52 3.52 0 0 0 0 1.41 2.84 2.84 0 0 1-.43 2.08 4.07 4.07 0 0 0-.67 2.23c0 3.89 1.88 4.93 4.7 5.29a1 1 0 0 1 .82.66 1 1 0 0 1-.21 1 2.06 2.06 0 0 0-.55 1.56V21a1 1 0 0 1-2 0v-.57a6 6 0 0 1-5.27-2.09 3.9 3.9 0 0 0-1.16-.88 1 1 0 1 1 .5-1.94 4.93 4.93 0 0 1 2 1.36c1 1 2 1.88 3.9 1.52a3.89 3.89 0 0 1 .23-1.58c-2.06-.52-5-2-5-7a6 6 0 0 1 1-3.33.85.85 0 0 0 .13-.62 5.69 5.69 0 0 1 .33-3.21 1 1 0 0 1 .63-.57c.34-.1 1.56-.3 3.87 1.2a12.16 12.16 0 0 1 5.69 0c2.31-1.5 3.53-1.31 3.86-1.2a1 1 0 0 1 .63.57 5.71 5.71 0 0 1 .33 3.22.75.75 0 0 0 .11.57 6 6 0 0 1 1 3.34c0 5.07-2.92 6.54-5 7a4.28 4.28 0 0 1 .22 1.67V21a1 1 0 0 1-.94 1z"/>
+                                </g>
+                            </svg>
+                        </a>
+                        <!-- LinkedIn Icon -->
+                        <a href="https://www.linkedin.com/in/gao-wanqian/" target="_blank" aria-label="LinkedIn" class="ps-2 pe-0 animateIcon">
+                            <svg fill="#000000" width="800px" height="800px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <g data-name="Layer 2">
+                                    <g data-name="linkedin">
+                                        <rect width="24" height="24" transform="rotate(180 12 12)" opacity="0"/>
+                                        <path d="M20 22h-1.67a2 2 0 0 1-2-2v-5.37a.92.92 0 0 0-.69-.93.84.84 0 0 0-.67.19.85.85 0 0 0-.3.65V20a2 2 0 0 1-2 2H11a2 2 0 0 1-2-2v-5.46a6.5 6.5 0 1 1 13 0V20a2 2 0 0 1-2 2zm-4.5-10.31a3.73 3.73 0 0 1 .47 0 2.91 2.91 0 0 1 2.36 2.9V20H20v-5.46a4.5 4.5 0 1 0-9 0V20h1.67v-5.46a2.85 2.85 0 0 1 2.83-2.85z"/>
+                                        <path d="M6 22H4a2 2 0 0 1-2-2V10a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2zM4 10v10h2V10z"/>
+                                        <path d="M5 7a3 3 0 1 1 3-3 3 3 0 0 1-3 3zm0-4a1 1 0 1 0 1 1 1 1 0 0 0-1-1z"/>
+                                    </g>
+                                </g>
+                            </svg>
+                        </a>
+                        <!-- Telegram Icon -->
+                        <a href="https://t.me/wanwan_99/" target="_blank" aria-label="Telegram" class="ps-2 pe-0 animateIcon">
+                            <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+                                <path d="M84.16,14.148l-71.047,29.57c0,0-3.359,1.221-3.099,3.473c0.267,2.256,3.008,3.288,3.008,3.288l17.877,6.382
+                                    c0,0,5.396,18.772,6.458,22.344c1.062,3.562,1.914,3.646,1.914,3.646c0.989,0.456,1.888-0.27,1.888-0.27l11.55-11.169L70.71,86.054
+                                    c4.869,2.253,6.641-2.441,6.641-2.441L90,15.935C90,11.427,84.16,14.148,84.16,14.148z M71.582,78.17L52.324,62.51l-5.976,5.777
+                                    l1.314-12.291l25.67-24.329L38.341,52.441l-15.521-5.54l59.217-24.648L71.582,78.17z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <!-- Resume Button -->
+                <div class="d-flex flex-row mt-auto justify-content-center justify-content-sm-center">
+                    <a href="/resume/cs_resume.pdf" download="resume_wanqian" target=_blank class="resumeBtn">    
+                        <span>RESUME</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        <!-- ABOUT SECTION -->
+        <section id="about" class="d-flex align-items-start flex-column my-5 bg-dark text-light">
+            <div class="flex-column d-sm-flex flex-sm-row container-fluid justify-content-between align-items-start mt-3">
+                <div class="d-flex flex-column col-12">
+                    <div class="flex-row container-fluid text-center col-md-8 about">
+                        <p class="titleText">About</p>
+                        <div class="aboutDescription">
+                            <p>As a recent graduate with a degree in Computer Science, I am eager to pursue a career as a Front-End Developer. I am excited to explore new opportunities and to apply my skills in creating innovative and user-friendly web applications.</p>
+
+                            <p>I am a highly motivated and dedicated individual that is willing to take on new challenges to expand my skillset as a Front-End Developer. Please feel free to connect with me to discuss potential opportunities or to learn more about my experience.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column d-sm-flex flex-sm-row edu_skills col-11 mx-auto mt-5">
+                        <div class="col-12 col-sm-6 me-0 me-sm-3 education">
+                            <p class="titleText">Education</p>
+                            <div class="eduDescription">
+                                <!-- CS DEGREE -->
+                                <div class="edu">
+                                    <p>[Apr 2020 - Apr 2023]</p>
+                                    <p>BSc Hons in Computer Science</p>
+                                    <p>SIMGE - University of London, Goldsmiths</p>
+                                    <p>
+                                        Degree Classification: First Class Honors (83%)
+                                        <span> – In Progress</span>
+                                    </p>
+                                </div>
+                                <!-- ID DIPLOMA -->
+                                <div class="edu">
+                                    <p>[Apr 2016 - Apr 2019]</p>
+                                    <p>Diploma in Industrial Design</p>
+                                    <p> Nanyang Polytechnic</p>
+                                    <p>Admitted to the Director’s List (Apr 2018)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 ms-0 ms-sm-3 mt-5 mt-sm-0 skills">
+                            <p class="titleText">Skills</p>
+                            <div class="skillsDescription">
+                                <!-- PROGRAMMING -->
+                                <p class="skillTitle">Programming:</p>
+                                <div class="mb-4 skillList">
+                                    <span>JavaScript</span>
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                    <span>Python</span>
+                                    <span>C++</span>
+                                    <span>C#</span>
+                                    <span>SQL</span>
+                                </div>
+                                <!-- FRAMEWORK -->
+                                <p class="skillTitle">Framework:</p>
+                                <div class="mb-4 skillList">
+                                    <span>React Native</span>
+                                    <span>Django</span>
+                                    <span>Bootstrap</span>
+                                    <span>Node.js</span>
+                                    <span>Unity</span>
+                                    <span>ExpressJS</span>
+                                    <span>JUCE</span>
+                                    <span>p5.js</span>
+                                </div>
+                                <!-- DATABASE -->
+                                <p class="skillTitle">Database</p>
+                                <div class="mb-4 skillList">
+                                    <span>MYSQL</span>
+                                    <span>PostgreSQL</span>
+                                    <span>Firebase</span>
+                                </div>
+                                <!-- LANGUAGE -->
+                                <p class="skillTitle">Language</p>
+                                <div class="skillList">
+                                    <span>English</span>
+                                    <span>Mandarin Chinese</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- PROJECTS SECTION -->
+        <section id="projects" class="d-flex align-items-start flex-column py-4 my-4 bg-dark text-light">
+            <p class="titleText mb-0 mx-auto mx-sm-0">Projects</p>
+            <div class="col-12">
+                <!-- PROJECT 1 -->
+                <div class="col-md-9 mx-auto d-flex flex-column d-sm-flex flex-sm-row mt-4 my-sm-5 justify-content-evenly mainProj">
+                    <div class="col-12 col-sm-4 d-flex justify-content-center my-auto">
+                        <!-- Project 1 Image, triggers modal -->
+                        <a data-bs-toggle="modal" data-bs-target="#modal1" href="#modal1" class="leftComponent">
+                            <img src="resources/taskManager_ss/taskList.png" class="screen1"/>
+                        </a>
+                        <!-- The Modal -->
+                        <div class="modal" id="modal1">
+                            <div class="modal-dialog modal-dialog-centered modal-md">
+                                <div class="modal-content">
+                                    <!-- Modal Header -->
+                                    <div class="modal-header bg-dark">
+                                        <p class="modal-title modalProjectTitle">Task Manager</p>
+                                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                                    </div>
+                                    <!-- Modal body -->
+                                    <div class="modal-body bg-dark text-light">
+                                        <div id="carousel_project1" class="carousel slide" data-bs-ride="false">
+                                            <!-- carousel content -->
+                                            <div class="carousel-inner"></div>
+                                            <!-- carousel indicators -->
+                                            <div class="carousel-indicators"></div>
+                                            <!-- carousel arrows -->
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel_project1" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button" data-bs-target="#carousel_project1" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-7 mt-5 my-sm-auto text-sm-start text-center align-middle rightComponent">
+                        <div class="d-flex flex-row justify-content-between mb-4">
+                            <!-- Project Title -->
+                            <p class="my-auto projectTitle">
+                                Task Manager
+                            </p>
+                            <div class="my-auto justify-content-center justify-content-sm-start text-sm-end me-3">
+                                <!-- GitHub Icon -->
+                                <a href="https://github.com/wanqian99/FYP_TaskManager" target="_blank" aria-label="Github" class="animateIcon">
+                                    <svg fill="#000000" width="800px" height="800px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <g data-name="Layer 2">
+                                            <rect width="24" height="24" opacity="0"/>
+                                            <path d="M16.24 22a1 1 0 0 1-1-1v-2.6a2.15 2.15 0 0 0-.54-1.66 1 1 0 0 1 .61-1.67C17.75 14.78 20 14 20 9.77a4 4 0 0 0-.67-2.22 2.75 2.75 0 0 1-.41-2.06 3.71 3.71 0 0 0 0-1.41 7.65 7.65 0 0 0-2.09 1.09 1 1 0 0 1-.84.15 10.15 10.15 0 0 0-5.52 0 1 1 0 0 1-.84-.15 7.4 7.4 0 0 0-2.11-1.09 3.52 3.52 0 0 0 0 1.41 2.84 2.84 0 0 1-.43 2.08 4.07 4.07 0 0 0-.67 2.23c0 3.89 1.88 4.93 4.7 5.29a1 1 0 0 1 .82.66 1 1 0 0 1-.21 1 2.06 2.06 0 0 0-.55 1.56V21a1 1 0 0 1-2 0v-.57a6 6 0 0 1-5.27-2.09 3.9 3.9 0 0 0-1.16-.88 1 1 0 1 1 .5-1.94 4.93 4.93 0 0 1 2 1.36c1 1 2 1.88 3.9 1.52a3.89 3.89 0 0 1 .23-1.58c-2.06-.52-5-2-5-7a6 6 0 0 1 1-3.33.85.85 0 0 0 .13-.62 5.69 5.69 0 0 1 .33-3.21 1 1 0 0 1 .63-.57c.34-.1 1.56-.3 3.87 1.2a12.16 12.16 0 0 1 5.69 0c2.31-1.5 3.53-1.31 3.86-1.2a1 1 0 0 1 .63.57 5.71 5.71 0 0 1 .33 3.22.75.75 0 0 0 .11.57 6 6 0 0 1 1 3.34c0 5.07-2.92 6.54-5 7a4.28 4.28 0 0 1 .22 1.67V21a1 1 0 0 1-.94 1z"/>
+                                        </g>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Project Description -->
+                        <p class="projectDescription">This application allows convenient monitoring and organization of user’s tasks, minimizing the risk of missing out on deadlines.</p>
+                        <p class="projectDescription">Some of the main features such as image/file attachments, calendar integration, sharing and exporting of tasks allows our target users to go about completing their tasks with increased productivity.</p>
+                        <!-- Project Techs -->
+                        <div class="d-flex flex-row justify-content-center justify-content-sm-start">
+                            <p class="my-auto">Tech:</p>
+                            <div class="ms-2 my-auto techList">
+                                <span>React Native</span>
+                                <span>Firebase</span>
+                                <span>React Context</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- PROJECT 2 -->
+                <div class="col-md-11 mx-auto d-flex flex-column d-sm-flex flex-sm-row mt-5 my-sm-5 justify-content-evenly mainProj">
+                    <div class="order-2 order-sm-1 col-12 col-sm-6 mt-5 my-sm-auto text-sm-start text-center align-middle leftComponent">
+                        <div class="d-flex flex-row justify-content-between mb-4">
+                            <!-- Project Title -->
+                            <p class="my-auto projectTitle">
+                                Facebook Clone
+                            </p>
+                            <div class="my-auto justify-content-center justify-content-sm-start text-sm-end me-3">
+                                <!-- GitHub Icon -->
+                                <a href="https://github.com/wanqian99/Facebook-Clone" target="_blank" aria-label="Github" class="animateIcon">
+                                    <svg fill="#000000" width="800px" height="800px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <g data-name="Layer 2">
+                                            <rect width="24" height="24" opacity="0"/>
+                                            <path d="M16.24 22a1 1 0 0 1-1-1v-2.6a2.15 2.15 0 0 0-.54-1.66 1 1 0 0 1 .61-1.67C17.75 14.78 20 14 20 9.77a4 4 0 0 0-.67-2.22 2.75 2.75 0 0 1-.41-2.06 3.71 3.71 0 0 0 0-1.41 7.65 7.65 0 0 0-2.09 1.09 1 1 0 0 1-.84.15 10.15 10.15 0 0 0-5.52 0 1 1 0 0 1-.84-.15 7.4 7.4 0 0 0-2.11-1.09 3.52 3.52 0 0 0 0 1.41 2.84 2.84 0 0 1-.43 2.08 4.07 4.07 0 0 0-.67 2.23c0 3.89 1.88 4.93 4.7 5.29a1 1 0 0 1 .82.66 1 1 0 0 1-.21 1 2.06 2.06 0 0 0-.55 1.56V21a1 1 0 0 1-2 0v-.57a6 6 0 0 1-5.27-2.09 3.9 3.9 0 0 0-1.16-.88 1 1 0 1 1 .5-1.94 4.93 4.93 0 0 1 2 1.36c1 1 2 1.88 3.9 1.52a3.89 3.89 0 0 1 .23-1.58c-2.06-.52-5-2-5-7a6 6 0 0 1 1-3.33.85.85 0 0 0 .13-.62 5.69 5.69 0 0 1 .33-3.21 1 1 0 0 1 .63-.57c.34-.1 1.56-.3 3.87 1.2a12.16 12.16 0 0 1 5.69 0c2.31-1.5 3.53-1.31 3.86-1.2a1 1 0 0 1 .63.57 5.71 5.71 0 0 1 .33 3.22.75.75 0 0 0 .11.57 6 6 0 0 1 1 3.34c0 5.07-2.92 6.54-5 7a4.28 4.28 0 0 1 .22 1.67V21a1 1 0 0 1-.94 1z"/>
+                                        </g>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Project Description -->
+                        <p class="projectDescription">This is a social networking application created with Python, Django and SQLite, that allows user creation, authentication, adding of friends and real-time chat.</p>
+                        <p class="projectDescription">It is a responsive site whereby the navigation bar and the contents resize according to the device’s size. The styling of the application is done with bootstrap4, with the addition of my own custom styles as well.</p>
+                        <!-- Project Techs -->
+                        <div class="d-flex flex-row justify-content-center justify-content-sm-start">
+                            <p class="my-auto">Tech:</p>
+                            <div class="ms-2 my-auto techList">
+                                <span>Python</span>
+                                <span>Django</span>
+                                <span>SQLite</span>
+                                <span>Bootstrap4</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="order-1 order-sm-2 col-12 col-sm-5 d-flex justify-content-center my-auto">
+                        <!-- Project 2 Image, triggers modal -->
+                        <a data-bs-toggle="modal" data-bs-target="#modal2" href="#modal2" class="rightComponent">
+                            <img src="resources/facebookClone_ss/home1.png" class="screen2 img-fluid"/>
+                        </a>
+                        <!-- The Modal -->
+                        <div class="modal" id="modal2">
+                            <div class="modal-dialog modal-dialog-centered modal-lg">
+                                <div class="modal-content">
+                                    <!-- Modal Header -->
+                                    <div class="modal-header bg-dark">
+                                        <p class="modal-title modalProjectTitle">Facebook Clone</p>
+                                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                                    </div>
+                                    <!-- Modal body -->
+                                    <div class="modal-body bg-dark text-light">
+                                        <div id="carousel_project2" class="carousel slide" data-bs-ride="false">
+                                            <!-- carousel content -->
+                                            <div class="carousel-inner"></div>
+                                            <!-- carousel indicators -->
+                                            <div class="carousel-indicators"></div>
+                                            <!-- carousel arrows -->
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel_project2" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button" data-bs-target="#carousel_project2" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- PROJECT 3 -->
+                <div class="col-md-9 mx-auto d-flex flex-column d-sm-flex flex-sm-row mt-5 my-sm-5 justify-content-evenly mainProj">
+                    <div class="col-12 col-sm-4 d-flex justify-content-center my-auto">
+                        <!-- Project 3 Image, triggers modal -->
+                        <a data-bs-toggle="modal" data-bs-target="#modal3" href="#modal3" class="leftComponent">
+                            <img src="resources/newsApp_ss/home_light.png" class="screen1"/>
+                        </a>
+                        <!-- The Modal -->
+                        <div class="modal" id="modal3">
+                            <div class="modal-dialog modal-dialog-centered modal-md">
+                                <div class="modal-content">
+                                    <!-- Modal Header -->
+                                    <div class="modal-header bg-dark">
+                                        <p class="modal-title modalProjectTitle">News App</p>
+                                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                                    </div>
+                                    <!-- Modal body -->
+                                    <div class="modal-body bg-dark text-light">
+                                        <div id="carousel_project3" class="carousel slide" data-bs-ride="false">
+                                            <!-- carousel content -->
+                                            <div class="carousel-inner"></div>
+                                            <!-- carousel indicators -->
+                                            <div class="carousel-indicators"></div>
+                                            <!-- carousel arrows -->
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel_project3" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button" data-bs-target="#carousel_project3" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-7 mt-5 my-sm-auto text-sm-start text-center align-middle rightComponent">
+                        <div class="d-flex flex-row justify-content-between mb-4">
+                            <!-- Project Title -->
+                            <p class="my-auto projectTitle">
+                                News App
+                            </p>
+                            <div class="my-auto justify-content-center justify-content-sm-start text-sm-end me-3">
+                                <!-- GitHub Icon -->
+                                <a href="https://github.com/wanqian99/News-App" target="_blank" aria-label="Github" class="animateIcon">
+                                    <svg fill="#000000" width="800px" height="800px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <g data-name="Layer 2">
+                                            <rect width="24" height="24" opacity="0"/>
+                                            <path d="M16.24 22a1 1 0 0 1-1-1v-2.6a2.15 2.15 0 0 0-.54-1.66 1 1 0 0 1 .61-1.67C17.75 14.78 20 14 20 9.77a4 4 0 0 0-.67-2.22 2.75 2.75 0 0 1-.41-2.06 3.71 3.71 0 0 0 0-1.41 7.65 7.65 0 0 0-2.09 1.09 1 1 0 0 1-.84.15 10.15 10.15 0 0 0-5.52 0 1 1 0 0 1-.84-.15 7.4 7.4 0 0 0-2.11-1.09 3.52 3.52 0 0 0 0 1.41 2.84 2.84 0 0 1-.43 2.08 4.07 4.07 0 0 0-.67 2.23c0 3.89 1.88 4.93 4.7 5.29a1 1 0 0 1 .82.66 1 1 0 0 1-.21 1 2.06 2.06 0 0 0-.55 1.56V21a1 1 0 0 1-2 0v-.57a6 6 0 0 1-5.27-2.09 3.9 3.9 0 0 0-1.16-.88 1 1 0 1 1 .5-1.94 4.93 4.93 0 0 1 2 1.36c1 1 2 1.88 3.9 1.52a3.89 3.89 0 0 1 .23-1.58c-2.06-.52-5-2-5-7a6 6 0 0 1 1-3.33.85.85 0 0 0 .13-.62 5.69 5.69 0 0 1 .33-3.21 1 1 0 0 1 .63-.57c.34-.1 1.56-.3 3.87 1.2a12.16 12.16 0 0 1 5.69 0c2.31-1.5 3.53-1.31 3.86-1.2a1 1 0 0 1 .63.57 5.71 5.71 0 0 1 .33 3.22.75.75 0 0 0 .11.57 6 6 0 0 1 1 3.34c0 5.07-2.92 6.54-5 7a4.28 4.28 0 0 1 .22 1.67V21a1 1 0 0 1-.94 1z"/>
+                                        </g>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Project Description -->
+                        <p class="projectDescription">This applications consolidates all the news from the different news sources [bbc, cnn etc.], and allows users to view news from all sources, or select a specific source or category.</p>
+                        <p class="projectDescription">A search page is included for filtering news based on the search keyword. Light/ Dark mode are available as well.</p>
+                        <!-- Project Techs -->
+                        <div class="d-flex flex-row justify-content-center justify-content-sm-start">
+                            <p class="my-auto">Tech:</p>
+                            <div class="ms-2 my-auto techList">
+                                <span>React Native</span>
+                                <span>News API</span>
+                                <span>React Context</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- OTHER PROJECTS SECTION -->
+        <section id="projects" class="d-flex align-items-start flex-column py-4 my-4 bg-dark text-light">
+            <p class="titleText mb-0 mx-auto mx-sm-0 ">Other Projects</p>
+            <div class="col-12 col-md-10 col-xxl-9 d-flex flex-wrap mx-auto justify-content-center mt-4" id="otherProjContainer">
+<!--
+                <div class="box m-3">
+                    <div class="imgBx">
+                       <img src="resources/test.png">
+                    </div>
+                    <div class="content">
+                        <div class="otherProjBox">
+                            <div class="d-flex flex-row justify-content-between mb-2">
+                                <p class="my-auto otherProjTitle">
+                                    Project Title
+                                </p>
+                                <div class="my-auto justify-content-center justify-content-sm-start text-sm-end">
+                                    <a href="https://github.com/wanqian99/FYP_TaskManager" target="_blank" aria-label="Github" class="animateIcon">
+                                        <svg fill="#000000" width="800px" height="800px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <g data-name="Layer 2">
+                                                <rect width="24" height="24" opacity="0"/>
+                                                <path d="M16.24 22a1 1 0 0 1-1-1v-2.6a2.15 2.15 0 0 0-.54-1.66 1 1 0 0 1 .61-1.67C17.75 14.78 20 14 20 9.77a4 4 0 0 0-.67-2.22 2.75 2.75 0 0 1-.41-2.06 3.71 3.71 0 0 0 0-1.41 7.65 7.65 0 0 0-2.09 1.09 1 1 0 0 1-.84.15 10.15 10.15 0 0 0-5.52 0 1 1 0 0 1-.84-.15 7.4 7.4 0 0 0-2.11-1.09 3.52 3.52 0 0 0 0 1.41 2.84 2.84 0 0 1-.43 2.08 4.07 4.07 0 0 0-.67 2.23c0 3.89 1.88 4.93 4.7 5.29a1 1 0 0 1 .82.66 1 1 0 0 1-.21 1 2.06 2.06 0 0 0-.55 1.56V21a1 1 0 0 1-2 0v-.57a6 6 0 0 1-5.27-2.09 3.9 3.9 0 0 0-1.16-.88 1 1 0 1 1 .5-1.94 4.93 4.93 0 0 1 2 1.36c1 1 2 1.88 3.9 1.52a3.89 3.89 0 0 1 .23-1.58c-2.06-.52-5-2-5-7a6 6 0 0 1 1-3.33.85.85 0 0 0 .13-.62 5.69 5.69 0 0 1 .33-3.21 1 1 0 0 1 .63-.57c.34-.1 1.56-.3 3.87 1.2a12.16 12.16 0 0 1 5.69 0c2.31-1.5 3.53-1.31 3.86-1.2a1 1 0 0 1 .63.57 5.71 5.71 0 0 1 .33 3.22.75.75 0 0 0 .11.57 6 6 0 0 1 1 3.34c0 5.07-2.92 6.54-5 7a4.28 4.28 0 0 1 .22 1.67V21a1 1 0 0 1-.94 1z"/>
+                                            </g>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <p class="otherProjDes">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi accusamus molestias quidem iusto.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+-->
+<!--
+                <div class="box m-3">
+                    <div class="imgBx">
+                       <img src="https://source.unsplash.com/EBtfyalTU50/800x600">
+                    </div>
+                    <div class="content">
+                        <div>
+                            <p>Project Title</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi accusamus molestias quidem iusto.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+-->
+            </div>
+            <div class="justify-content-center mx-auto">
+                <button class=" mt-5 text-light border-0 rounded rounded-2 px-4 py-2 showBtn showMoreBtn" id="moreBtn">
+                    <span>Expand...</span>
+                </button>
+                <button class="d-none mt-5 text-light border-0 rounded rounded-2 px-4 py-2 showBtn showLessBtn" id="lessBtn">
+                    <span>Collapse...</span>
+                </button>
+            </div>
+            
+        </section>
+    </div>
+
+<!--
+    <footer>
+
+    </footer>
+-->
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
